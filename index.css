@@ -1,0 +1,41 @@
+* {
+  box-sizing: 0;
+}
+body {
+  margin: 0px;
+}
+
+.greeting {
+  font-family: Roboto;
+  background-image: url("https://i.pinimg.com/736x/94/97/00/949700f78c06e73273904014a6a7553a.jpg");
+  background-size: cover;
+  height: 200vh;
+  width: 100%;
+  padding: 30px;
+}
+.heading {
+  color: orange;
+  font-family: Monospace;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+.para {
+  font-family: "roboto";
+  color: orange;
+}
+.venue {
+  color: yellowgreen;
+  font-weight: bold;
+  font-size: 15px;
+}
+.datetime {
+  color: white;
+  font-style: oblique;
+}
+.kit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
